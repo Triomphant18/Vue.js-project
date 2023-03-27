@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", 'EB Garamond', serif;
+}
+
+body {
+  margin: 20px auto;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lightblue_empty_grid.svg/1200px-Lightblue_empty_grid.svg.png");
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.35rem;
+  size: 15px;
+  word-wrap: break-word;
+}
+
+h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  size: 4;
+}
+
+.p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  size: 5;
+  background-color: transparent;
+  font-family: 'Farsan', cursive;
+}
+
+p {
+  font-size: 1.15rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Farsan', cursive;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+ul li {
+  text-decoration: none;
+  color: #000;
+  background: #ffc;
+  border-radius: 15px;
+  display: block;
+  height: 18em;
+  width: 18em;
+  padding: 1.5em;
+  box-shadow: 5px 5px 7px rgba(15, 64, 109, 0.897);
+  transition: transform .15s linear;
+}
+
+ul li {
+  margin: 1em;
+  word-break: break-all;
+}
+
+ul li {
+  transform: rotate(-6deg);
+}
+
+ul li:nth-child(even) {
+  transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+}
+
+ul li:nth-child(3n) {
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+}
+
+ul li:nth-child(5n) {
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+}
+
+ul li:hover,
+ul li:focus {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+  transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+}
+
+
+ul li:nth-child(even) {
+  position: relative;
+  top: 5px;
+  background: rgb(181, 228, 181);
+}
+
+ul li:nth-child(3n) {
+  position: relative;
+  top: -5px;
+  background: rgb(182, 182, 233);
+}
+
+ul li img {
+  display: flex;
+  width: 1.75em;
+  bottom: 1em;
+  margin-left: 220px;
+  position: absolute;
+}
+
+ul div li {
+  background-color: transparent;
+  background-color: rgb(203, 210, 209);
+  outline: none;
+  border: none;
+  resize: none
+}
+
+.backward {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  rotate: 180deg;
+  display: flex;
+  position: absolute;
+}
+
+.forward {
+  margin-top: -100px;
+  margin-right: 100px;
+}
+
+ul li textarea {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  resize: none
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 1em;
+  text-align: justify;
+  font-family: 'Farsan', cursive;
+}
+
+.iconplus {
+  margin-left: 50px;
+  margin-top: 60px;
+  text-align: center;
+  width: 140px;
+  display: flex;
+  position: relative;
+}
+
+.approuved {
+  width: 35px;
+}
+
+.delete {
+  margin-left: 0px;
+  width: 35px;
+}
+
+.container {
+  margin-top: 13%;
+  background-color: rgb(181, 228, 181);
+  color: #000;
+  border-radius: 40px;
+  padding: 8%;
+}
+
+.container .description {
+  padding: 3px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Farsan', cursive;
+  word-wrap: break-word;
+}
+
+.container h2 {
+  font-size: 30px;
+  text-align: justify;
+  font-family: 'EB Garamond', serif;
+}
+
+.myflex {
+  display: flex;
+  align-content: space-between;
+}
+
+
+.back {
+  rotate: 180deg;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  background-color: transparent;
+  width: 100%;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  background-color: transparent;
+  width: 100%;
+  ;
+}
+
+span {
+  font-size: 2em;
+  font-family: 'Farsan', cursive;
+  font-weight: bold;
+}
